@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Poltawski+Nowy:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap");
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  /* position: -webkit-sticky; /* for Safari */
+  /* position: sticky;
+    top: 0;
+    align-self: flex-start; */
+}
+
+menu {
+  margin: 0;
+}
+
+.right-nav li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.left-nav {
+  font-family: "EB+Garamond", cursive;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.right-nav {
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: #ed2b2a;
+  font-weight: 600;
+}
+table {
+  margin-top: 10px;
+  width: 50%;
+  border: 1px solid;
+}
+
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: "Poltawski Nowy", serif;
+  font-size: 25px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.divide {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+video,
+audio {
+  margin-left: 50px;
+}
+
+.ads {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+li {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px;
+}
+
+.banner {
+  height: auto;
+  background-color: #ffe3e1;
+  cursor: pointer;
+}
+
+.banner summary {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.banner details > summary {
+  list-style-type: "➡️";
+}
+
+.banner details[open] > summary {
+  list-style-type: "⬇️";
+}
+
+marquee {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.footer-divide {
+  display: flex;
+  margin: 0;
+  border-top: 2px solid #ed2b2a;
+  justify-content: space-between;
+}
+
+.footer-left h4 {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.rights {
+  text-align: center;
+  margin-top: 10px;
+  border-top: 1px solid grey;
+  font-size: 20px;
+}
+
+.footer-right a {
+  padding: 10px;
+}
+
+.fa.fa-envelope {
+  font-size: 20px;
+  color: #8ea7e9;
+}
+
+.fa.fa-phone {
+  font-size: 20px;
+  color: #5aa469;
+}
+
+.dets{
+    margin-top: 20px;
+}
+
+.hideDive{
+    display: none;
+}
+
+.hideDive:target{
+    display: block;
+}

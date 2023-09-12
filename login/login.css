@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+    /* position: -webkit-sticky; /* for Safari */
+    /* position: sticky;
+      top: 0;
+      align-self: flex-start; */
+  }
+  
+  menu {
+    margin: 0;
+  }
+  
+  .right-nav li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  
+  .left-nav {
+    font-family: "EB+Garamond", cursive;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  
+  .right-nav {
+    padding-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .title {
+    font-family: "Lobster", cursive;
+    font-size: 50px;
+    color: #ed2b2a;
+    font-weight: 600;
+  }
+h1{
+    text-align: center;
+}
+
+.login-divide{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-form input{
+    width:400px;
+    height: 50px;
+}
+
+.login-form{
+    margin-top: 80px;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.login-form button{
+    width:400px;
+    height: 50px;
+    background-color: #3a0ca3;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.banner {
+    height: auto;
+    background-color: #ffe3e1;
+    cursor: pointer;
+  }
+  
+  .banner summary {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .banner details > summary {
+    list-style-type: "➡️";
+  }
+  
+  .banner details[open] > summary {
+    list-style-type: "⬇️";
+  }
+  
+  marquee {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+  }
+  
+  .footer-divide {
+    display: flex;
+    margin: 0;
+    border-top: 2px solid #ed2b2a;
+    justify-content: space-between;
+  }
+  
+  .footer-left h4 {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  
+  .rights {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid grey;
+    font-size: 20px;
+  }
+  
+  .footer-right a {
+    padding: 10px;
+  }
+  
+  .fa.fa-envelope {
+    font-size: 20px;
+    color: #8ea7e9;
+  }
+  
+  .fa.fa-phone {
+    font-size: 20px;
+    color: #5aa469;
+  }

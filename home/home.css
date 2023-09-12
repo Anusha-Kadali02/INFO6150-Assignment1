@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    /* position: -webkit-sticky; /* for Safari */
+    /* position: sticky;
+    top: 0;
+    align-self: flex-start; */ 
+}
+
+menu{
+    margin: 0;
+}
+
+.right-nav li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.left-nav{
+    font-family: 'EB+Garamond', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.right-nav{
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #ED2B2A;
+    font-weight: 600;
+}
+
+.card{
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
+
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info button{
+    background: none;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+
+.card-info button:hover {
+    border: 2px solid #FD8A8A;
+    border-radius: 5px;
+}
+
+
+.banner{
+    height: auto;
+    background-color: #FFE3E1;
+    cursor: pointer;
+}
+
+.banner summary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.banner details > summary {
+    list-style-type: '➡️';
+}
+
+.banner details[open] > summary {
+    list-style-type: '⬇️';
+}
+
+marquee{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.footer-divide{
+    display: flex;
+    margin: 0;
+    border-top: 2px solid  #ED2B2A;
+    justify-content: space-between;
+}
+
+.footer-left h4{
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.rights{
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid grey;
+    font-size: 20px;
+}
+
+.footer-right a{
+    padding: 10px;
+}
+
+.fa.fa-envelope{
+    font-size: 20px;
+    color: #8EA7E9;
+}
+
+.fa.fa-phone{
+    font-size: 20px;
+    color: #5AA469;
+}
