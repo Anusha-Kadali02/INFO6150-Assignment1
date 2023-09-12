@@ -71,8 +71,11 @@ For this assignment I have created a cooking website.
   <ul>
     <li>This tag has been used for the first letter in the title.</li>
      <li><img width="100%" height="300" src="https://github.com/Anusha-Kadali02/INFO6150-Assignment1/assets/144817794/ee0c2508-8e05-40cf-8bb4-58ca3c8c1057"></li>
-  </ul>
-  
-  
-  
+  </ul> 
 </ol>
+
+# Tech stacks used
+<img width="40%" height="300" src="https://github.com/Anusha-Kadali02/INFO6150-Assignment1/assets/144817794/e984008b-5523-4bb1-b5c0-b79eb389df9f">
+
+
+
